@@ -27,18 +27,31 @@
 
 // ******************************** Operations **************************************
 
-let value = 3
-let negValue = -value
-console.log(negValue)
+// let value = 3
+// let negValue = -value
+// console.log(negValue)
 
 
 
-let str1 = "swapnil"
-let str2 = " verma"
-console.log(str1+str2)
+// let str1 = "swapnil"
+// let str2 = " verma"
+// console.log(str1+str2)
 
-console.log("1"+2)
-console.log(1 +"2")
-console.log("1"+2 +2)
+// console.log("1"+2)
+// console.log(1 +"2")
+// console.log("1"+2 +2)
 
-console.log(1 + 3 +"5")
+// console.log(1 + 3 +"5")
+
+
+// *************************** Comparision Operator ***********************
+
+console.log(null>0)
+console.log(null==0)
+console.log(null>=0)
+
+console.log(undefined==0)
+console.log(undefined>0)
+console.log(undefined<0)
+
+console.log("2"==2)
