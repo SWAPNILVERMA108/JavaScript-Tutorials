@@ -21,3 +21,4 @@ console.log(typeof "swapnil")
 console.log(typeof null)
 
 console.log(typeof undefined)
+console.log("swapnil verma")
