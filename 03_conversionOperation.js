@@ -46,12 +46,22 @@
 
 // *************************** Comparision Operator ***********************
 
-console.log(null>0)
-console.log(null==0)
-console.log(null>=0)
+// console.log(null>0)
+// console.log(null==0)
+// console.log(null>=0)
 
-console.log(undefined==0)
-console.log(undefined>0)
-console.log(undefined<0)
+// console.log(undefined==0)
+// console.log(undefined>0)
+// console.log(undefined<0)
 
-console.log("2"==2)
+// console.log("2"==2)
+
+
+// ************************** DataType summary *******************
+
+// primitive
+
+// 7 types : String , Number, Boolean, null , undefined, symbol, BigInt
+
+// Reference (Non Primitive)
+// Array ,Objects , Function 
