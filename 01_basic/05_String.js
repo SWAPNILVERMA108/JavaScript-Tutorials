@@ -32,3 +32,18 @@ let up =url.replace(".","**")
 console.log(url)
 console.log(up)
 console.log(url.includes("com"))
+
+
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack and heap memory
+
+let myName = "Aman Verma"
+let anotherName= myName
+
+console.log(anotherName
+    
+)
