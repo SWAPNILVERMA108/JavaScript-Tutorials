@@ -66,8 +66,8 @@
 
 // json formate 
 
-{
-    "name":"swapnil",
-    "courseName":"js",
-    "price":"free"
-}
+// {
+//     "name":"swapnil",
+//     "courseName":"js",
+//     "price":"free"
+// }
