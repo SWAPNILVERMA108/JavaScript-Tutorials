@@ -4,21 +4,17 @@ window.addEventListener('keydown',(e)=>{
         <div class = "color">
         <table>
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>key</th>
+    <th>keycode</th>
+    <th>code</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>${e.key=== ' ' ? "space" : e.key}</td>
+    <td>${e.keyCode}</td>
+    <td>${e.code}</td>
   </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
+   
 </table>
-        </div>
+        </div> 
         `
 })
