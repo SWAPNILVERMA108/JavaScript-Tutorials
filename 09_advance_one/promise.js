@@ -1,4 +1,4 @@
-const { use } = require("react");
+const {use} = require("react");
 
 const promiseOne = new Promise(function(resolve,reject){
     // Do an async task
@@ -79,3 +79,8 @@ async function consumePromiseFive(){
 }
 
 consumePromiseFive()
+
+
+//Get alluser
+
+ 
