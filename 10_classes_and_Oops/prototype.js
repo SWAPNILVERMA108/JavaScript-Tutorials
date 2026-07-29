@@ -22,17 +22,31 @@
 
 // prototype by harry 
 
-let a = {
-    name: "Swapnil",
-    language: "javaScript"
-};
+// let a = {
+//     name: "Swapnil",
+//     language: "javaScript"
+// };
 
-let p = {
-    run() {
-        console.log("run");
-    }
-};
+// let p = {
+//     run() {
+//         console.log("run");
+//     }
+// };
 
-Object.setPrototypeOf(a, p);
+// Object.setPrototypeOf(a, p);
 
-a.run();
+// a.run();
+
+
+// another example of prototype
+
+function person(name){
+    this.name = name
+}
+
+person.prototype.greet = function(){
+    console.log("hello , "+ this.name)
+}
+
+const p1 = new person("swapnil")
+p1.greet()
