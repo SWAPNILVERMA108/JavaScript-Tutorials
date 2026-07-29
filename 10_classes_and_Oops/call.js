@@ -11,3 +11,4 @@ function createUser(username,email,password){
 
 const coffee = new createUser("coffee","coffee@123.com",231)
 console.log(coffee)
+
